@@ -1,0 +1,21 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "Exploring about Restfull API and testing the https requests with the tool postman",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start":"npx nodemon index.js"
+  },
+  "keywords": [
+    "Restiful",
+    "Postman"
+  ],
+  "author": "Mukesh Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
